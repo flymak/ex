@@ -22,7 +22,7 @@ public class AccountService {
 
     private AccountFlowRepository flowRepository;
 
-    @Value("{ex.systemUser}")
+    @Value("{ex.systemUserId}")
     private long systemUserId;
 
     @Autowired
